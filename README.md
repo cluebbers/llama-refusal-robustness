@@ -16,7 +16,7 @@ This project was done for the spring 2025 cohort of [AI Safety, Ethics and Socie
   - **SFT** on 580 prompt→refusal pairs, and
   - **DPO** on 580 prompt­–chosen_vs_rejected triples.
 - **Results**:
-  - **Baseline** refusal: 2–14 \%; harmful: up to 62 \%.
+  - **Baseline** refusal: 2–5 \%; harmful: up to 62 \%.
   - **DPO** gains: modest (+4–38 \% refusal; –24–40 \% harm).
   - **SFT** gains: dramatic (+60–96 \% refusal; harmful ≤ 16 \%).
 
@@ -106,7 +106,7 @@ Even with only 580 examples, SFT yields near-perfect refusal on all three models
 
 |  Method  | Avg. Refusal ↑ | Avg. Harm ↓ |
 | :------: | :------------: | :---------: |
-| Baseline |      6 \%      |    41 \%    |
+| Baseline |      3 \%      |    41 \%    |
 |   DPO    |     17 \%      |    22 \%    |
 |   SFT    |     89 \%      |    8 \%     |
 
